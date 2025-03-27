@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f5;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #b71c1c;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Servicios con imágenes */
+.servicio {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+}
+
+.servicio img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Formulario */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #d32f2f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Botones flotantes */
+.boton-flotante {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.boton-flotante img {
+    width: 40px;
+}
+
+.whatsapp {
+    right: 20px;
+    background-color: #25d366;
+}
+
+.llamada {
+    right: 90px;
+    background-color: #007bff;
+}
+
+.boton-flotante:hover {
+    transform: scale(1.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciber GICELL - Servicios Digitales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Ciber GICELL</h1>
+        <p>Tu centro de servicios digitales confiable</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de inicio con imagen -->
+    <section id="inicio">
+        <h2>Bienvenidos a Ciber GICELL</h2>
+        <p>Ofrecemos soluciones rápidas y económicas en impresiones, copias, diseño gráfico y más.</p>
+        <img src="ciber.jpg" alt="Imagen del ciber">
+        <p class="ubicacion">📍 Dirección: Av. 16 de septiembre, Cuanalan, 55885 Acolman de Nezahualcóyotl, Méx.</p>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <img src="impresion.jpg" alt="Impresión">
+            <h3>Impresión y copias</h3>
+            <p>Alta calidad en impresiones y copias a blanco y negro o color.</p>
+        </div>
+        <div class="servicio">
+            <img src="reparacion.jpg" alt="Reparación">
+            <h3>Reparacion de Celulares</h3>
+            <p>Repara tus celulares con la mejor calidad.</p>
+        </div>
+        <div class="servicio">
+            <img src="diseño.jpg" alt="Diseño">
+            <h3>Diseño gráfico</h3>
+            <p>Logotipos, tarjetas de presentación, publicidad digital y más.</p>
+        </div>
+    </section>
+
+    <!-- Sección de contacto con formulario -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Botones flotantes -->
+    <a href="https://api.whatsapp.com/send?phone=+5215525207534&text=Hola, quiero más información." 
+       class="boton-flotante whatsapp" target="_blank">
+        <img src="whatsapp-icon.png" alt="WhatsApp">
+    </a>
+
+    <a href="tel:+5215525207534" class="boton-flotante llamada">
+        <img src="phone-icon.png" alt="Llamar">
+    </a>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Ciber GICELL - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
